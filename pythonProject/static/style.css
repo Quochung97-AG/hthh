@@ -1,0 +1,104 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+.btn {
+    background-color: #1cc9c3; 
+    border: 2px solid #c70e0e; 
+    text-align: center;
+    border-radius: 10px; /* Bo tròn các góc nút */
+    padding: 10px 30px; /* Khoảng cách bên trong nút */
+    text-decoration: none; /* Loại bỏ gạch chân */
+    display: inline-block; /* Hiển thị nút dưới dạng khối nội tuyến */
+    font-size: 30px; /* Cỡ chữ */
+    margin: 4px 2px; /* Khoảng cách xung quanh */
+    cursor: pointer; /* Hiển thị con trỏ tay khi rê chuột */
+    color: #fff;
+    transition: background-color 0.3s, border 0.3s; /* Hiệu ứng chuyển màu */
+}
+
+.btn:hover {
+  background-color:  #45a049; 
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19); /* Tạo bóng nổi */
+}
+
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Tahoma', sans-serif; /* Sử dụng phông chữ */
+    background-color: #fff; /* Nền trang */
+    color: #7ec002; /* Chữ mặc định */
+    font-size: 20px; /* Kích thước chữ mặc định */
+    text-align: center; /* Canh giữa nội dung */
+    letter-spacing: 1.2px; /* Khoảng cách giữa các ký tự */
+}
+
+.login {
+  position: absolute;
+  top: 50%; /* Đặt ở giữa màn hình dọc */
+  left: 50%; /* Đặt ở giữa màn hình ngang */
+  transform: translate(-50%, -50%); /* Cân chỉnh vị trí giữa màn hình */
+  max-width: 450px; /* Chiều rộng tối đa của khối */
+  max-height: 500px; /* Chiều cao tối đa của khối */
+  padding: 20px; /* Khoảng cách bên trong */
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+              url('hoairis.jpg') no-repeat center center; /* Nền là ảnh 'hoairis.jpg' kết hợp hiệu ứng mờ */
+  background-size: cover; /* Ảnh phủ toàn bộ khối */
+  border-radius: 20px; /* Bo góc của khối */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Thêm bóng đổ cho khối */
+  color: #b6ff00; /* Màu chữ */
+}
+
+.login h1 {
+  font-size: 24px; /* Kích thước chữ nhỏ hơn */
+  margin-bottom: 20px; /* Khoảng cách phía dưới */
+  color: #ff0000; 
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Hiệu ứng phát sáng nhẹ */
+  letter-spacing: 1px; /* Khoảng cách giữa các ký tự */
+  text-align: center; /* Canh giữa chữ */
+}
+
+input {
+  width: 100%; /* Chiều rộng bằng hộp chứa */
+  margin-bottom: 15px; /* Khoảng cách dưới mỗi ô */
+  padding: 10px; /* Khoảng cách bên trong ô */
+  font-size: 14px; /* Cỡ chữ trong ô */
+  background: rgba(255, 255, 255, 0.8); /* Nền sáng nhẹ */
+  border: none; /* Loại bỏ viền mặc định */
+  border-radius: 4px; /* Bo tròn các góc ô */
+  box-shadow: inset 0 -5px 45px rgba(100, 100, 100, 0.2), 
+              0 1px 1px rgba(255, 255, 255, 0.2); /* Hiệu ứng bóng nổi */
+  transition: box-shadow 0.5s ease; /* Hiệu ứng bóng khi focus */
+}
+
+input:focus {
+  box-shadow: inset 0 -5px 45px rgba(255, 99, 71, 0.2), 
+              0 1px 1px rgba(255, 99, 71, 0.2); /* Hiệu ứng bóng cam khi ô được chọn */
+}
+
+input:focus {
+  box-shadow: inset 0 -5px 45px rgba(255, 99, 71, 0.2), 0 1px 1px rgba(255, 99, 71, 0.2);
+}
+
+h1, h3 {
+  color: #E6A600; /* Màu vàng sáng */
+  text-shadow: 
+    -1px -1px 0 #FFFFFF, /* Bóng trên bên trái */
+     1px -1px 0 #FFFFFF, /* Bóng trên bên phải */
+    -1px  1px 0 #FFFFFF, /* Bóng dưới bên trái */
+     1px  1px 0 #FFFFFF; /* Bóng dưới bên phải */
+  text-transform: uppercase; /* Chuyển chữ thành in hoa */
+}
